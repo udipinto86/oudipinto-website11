@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  env: {
-    MONGODB_URI: process.env.MONGODB_URI,
-    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
-  },
+  i18n: {
+    locales: ['he'],
+    defaultLocale: 'he',
+  }
 }
 
 module.exports = nextConfig
