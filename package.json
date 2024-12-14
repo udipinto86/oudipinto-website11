@@ -15,3 +15,15 @@
     "next-auth": "latest"
   }
 }
+{
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "mongodb": "latest",
+    "next-auth": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}
