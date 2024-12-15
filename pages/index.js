@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -12,10 +10,10 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <main className="max-w-7xl mx-auto py-6 px-4">
         <div className="bg-white shadow rounded-lg p-6">
-          <h2 className="text-xl font-bold text-right mb-4">צור קשר</h2>
           <div className="text-right">
+            <h2 className="text-xl font-bold mb-4">צור קשר</h2>
             <p>טלפון: 050-3353076</p>
             <p>אימייל: pintoudi@gmail.com</p>
             <p>כתובת: יגאל אלון 123, תל אביב</p>
